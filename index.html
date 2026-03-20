@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="nav_logo">
+        <a href="index.html">
+        <img class="logo_img" src="logo.jpg" alt="logo">
+        </a>
+        <h1 class="logo_text">Skarbnytsya</h1>
+        </div>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="burger-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+        </label>
+        <nav class="panel" id="page-top">
+            <ul>
+                <li class="dropdown">
+                 <a href="#catalog" class="dr_disign">
+                    Каталог <span class="arrow"></span></a>
+                <div class="dropdown_content">
+                    <div class="dropdown_inner">
+                    <a href="#shirt" class="text_drop">Сорочки та вишиванки</a>
+                    <a href="#dresses" class="text_drop">Вишивані сукні</a>
+                    <a href="#accessories" class="text_drop">Аксесуари</a>
+                    </div>
+                </div>
+                </li>
+
+                <li class="dropdown">
+                <a href="" class="dr_disign">
+                    Регіони<span class="arrow"></span></a>
+                    <div class="dropdown_content">
+                        <div class="dropdown_inner">
+                        <a href="regions.html#west" class="text_drop">Західна Україна</a> 
+                        <a href="regions.html#central" class="text_drop">Центральна Україна</a> 
+                        <a href="regions.html#north" class="text_drop">Північна Україна</a>  
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#about">Про нас</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main>
+    <section class="first">
+        <div class="first_content">
+            <h2 class="first_title">Одяг, що зберігає <br><span>душу народу</span></h2>
+            <p class="first_subtitle">Відтворенні автентичні строї та сучасна інтерпретація українських традицій.</p>
+            <div class="first_buttons">
+                <a href="#catalog" class="btn_primary">До каталогу</a>
+                <a href="regions.html" class="btn_secondary">Дослідити регіони</a>
+            </div>
+        </div>
+        <div class="main_image">
+            <img src="main.png" alt="Український автентичний одяг">
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature_item">
+            <h3>100% Льон</h3>
+            <p>Тільки натуральні матеріали</p>
+        </div>
+        <div class="feature_item">
+            <h3>Ручна робота</h3>
+            <p>Майстри зберігають техніки</p>
+        </div>
+        <div class="feature_item">
+            <h3>Доставка</h3>
+            <p>По всьому світу</p>
+        </div>
+    </section>
+
+    <section id="about">
+
+<div class="container">
+    <h2>Про нашу майстерню</h2>
+
+    <div class="about-section">
+        <div class="about-image">
+            <img src="master.png" alt="Майстриня за роботою">
+        </div>
+        
+        <div class="about-text">
+            <p>Наша історія розпочалася з одного старого рушника, знайденого на горищі бабусиної хати на Поліссі. Те полотно зберігало не просто візерунок, а силу поколінь.</p>
+            
+            <div class="quote">
+                "Вишивка — це молитва без слів, це наш генетичний код, вшитий у біле полотно долі."
+            </div>
+            
+            <p>Сьогодні ми об’єднуємо талановитих майстринь з усієї України, щоб відродити забуті техніки. Ми не просто шиємо одяг — ми створюємо ваші особисті обереги, натхненні магією Поділля, величчю Києва та автентикою Гуцульщини.</p>
+            
+            <a href="#catalog" class="cta-button">Обрати свою вишиванку</a>
+        </div>
+    </div>
+
+    <h2>Наші цінності</h2>
+    <div class="mission-grid">
+        <div class="mission-item">
+            <h3>Якість полотна</h3>
+            <p>Ми використовуємо тільки натуральний льон та конопляне полотно, які дозволяють тілу дихати.</p>
+        </div>
+        <div class="mission-item">
+            <h3>Жива традиція</h3>
+            <p>Кожен орнамент перевірений етнографами. Ми зберігаємо символіку, щоб вона працювала на ваше благо.</p>
+        </div>
+        <div class="mission-item">
+            <h3>Ручна робота</h3>
+            <p>Ми віримо, що тепло людських рук не замінить жодна машина. Кожна деталь має значення.</p>
+        </div>
+    </div>
+</div>
+<br class="br1">
+</section>
+
+
+    <section id="catalog" class="catalog_section">
+    <div class="catalog_header">
+        <h2 class="catalog_title">Наші Скарби</h2>
+        <div class="catalog_filters">
+            <button class="filter_btn">Вишиванки</button>
+            <button class="filter_btn">Сукні</button>
+            <button class="filter_btn">Аксесуари</button>
+        </div>
+    </div>
+    <section id="shirt">
+        <h2 class="title_product">Сорочки й вишиванки</h2>
+    <div class="product_grid">
+    <div class="product_card">
+        <div class="product_badge">Новинка</div>
+        <div class="product_image">
+            <img src="vyshyvanka_1.png" alt="Вишиванка Поділля">
+        </div>
+        <div class="product_info">
+            <span class="product_category">Поділля</span>
+            <h3 class="product_name">Вишиванка "Ніч"</h3>
+            <p class="product_price">4 500 ₴</p>
+            <button class="btn_add">До кошика</button>
+        </div>
+    </div>
+
+    <div class="product_card">
+        <div class="product_badge">Новинка</div>
+        <div class="product_image">
+            <img src="vyshyvanka_2.png" alt="Вишиванка Гуцульщина">
+        </div>
+        <div class="product_info">
+            <span class="product_category">Гуцульщина</span>
+            <h3 class="product_name">Вишиванка "Пшениця"</h3>
+            <p class="product_price">3 800 ₴</p>
+            <button class="btn_add">До кошика</button>
+        </div>
+    </div>
+
+    <div class="product_card">
+        <div class="product_image">
+            <img src="vyshyvanka_3.png" alt="Вишиванка Київщина">
+        </div>
+        <div class="product_info">
+            <span class="product_category">Київщина</span>
+            <h3 class="product_name">Вишиванка "Цвіт літа"</h3>
+            <p class="product_price">5 200 ₴</p>
+            <button class="btn_add">До кошика</button>
+        </div>
+    </div>
+
+    <div class="product_card">
+        <div class="product_image">
+            <img src="vyshyvanka_4.png" alt="Вишиванка Полісся">
+        </div>
+        <div class="product_info">
+            <span class="product_category">Полісся</span>
+            <h3 class="product_name">Вишиванка "Дарунок осені"</h3>
+            <p class="product_price">3 900 ₴</p>
+            <button class="btn_add">До кошика</button>
+        </div>
+    </div>
+    </section>
+    <section id="dresses">
+        <h2 class="title_product">Вишивані сукні</h2>
+</div> 
+    <div class="product_grid">
+    <div class="product_card">
+        <div class="product_badge">Новинка</div>
+        <div class="product_image">
+            <img src="dress_1.png" alt="Вишивана Сукня">
+        </div>
+        <div class="product_info">
+            <span class="product_category">Поділля</span>
+            <h3 class="product_name">Вишивана Сукня "Степова пані"</h3>
+            <p class="product_price">4 500 ₴</p>
+            <button class="btn_add">До кошика</button>
+        </div>
+    </div>
+
+    <div class="product_card">
+        <div class="product_badge">Новинка</div>
+        <div class="product_image">
+            <img src="dress_2.png" alt="Вишивана Сукня">
+        </div>
+        <div class="product_info">
+            <span class="product_category">Гуцульщина</span>
+            <h3 class="product_name">Вишивана Сукня "Верховинка"</h3>
+            <p class="product_price">2 800 ₴</p>
+            <button class="btn_add">До кошика</button>
+        </div>
+    </div>
+
+    <div class="product_card">
+        <div class="product_image">
+            <img src="dress_3.png" alt="Вишивана Сукня">
+        </div>
+        <div class="product_info">
+            <span class="product_category">Київщина</span>
+            <h3 class="product_name">Вишивана Сукня "Ритми роду"</h3>
+            <p class="product_price">5 200 ₴</p>
+            <button class="btn_add">До кошика</button>
+        </div>
+    </div>
+
+    <div class="product_card">
+        <div class="product_image">
+            <img src="dress_4.png" alt="Вишивана Сукня">
+        </div>
+        <div class="product_info">
+            <span class="product_category">Полісся</span>
+            <h3 class="product_name">Вишивана Сукня "Калина"</h3>
+            <p class="product_price">3 900 ₴</p>
+            <button class="btn_add">До кошика</button>
+        </div>
+    </div>
+</div> 
+</section>
+
+<section id="accessories">
+    <h2 class="title_product">Аксесуари</h2>
+</div> 
+    <div class="product_grid">
+    <div class="product_card">
+        <div class="product_badge">Новинка</div>
+        <div class="product_image">
+            <img src="necklace_1.png" alt="Аксесуар">
+        </div>
+        <div class="product_info">
+            <span class="product_category">Поділля</span>
+            <h3 class="product_name">Прикраса "Подоляночка"</h3>
+            <p class="product_price">1 400 ₴</p>
+            <button class="btn_add">До кошика</button>
+        </div>
+    </div>
+
+    <div class="product_card">
+        <div class="product_badge">Новинка</div>
+        <div class="product_image">
+            <img src="necklace_2.png" alt="Аксесуар">
+        </div>
+        <div class="product_info">
+            <span class="product_category">Гуцульщина</span>
+            <h3 class="product_name">Прикраса "Дух Карпат"</h3>
+            <p class="product_price">1 800 ₴</p>
+            <button class="btn_add">До кошика</button>
+        </div>
+    </div>
+
+    <div class="product_card">
+        <div class="product_image">
+            <img src="necklace_3.png" alt="Аксесуар">
+        </div>
+        <div class="product_info">
+            <span class="product_category">Київщина</span>
+            <h3 class="product_name">Прикраса "Панночка"</h3>
+            <p class="product_price">1 200 ₴</p>
+            <button class="btn_add">До кошика</button>
+        </div>
+    </div>
+
+    <div class="product_card">
+        <div class="product_image">
+            <img src="necklace_4.png" alt="Аксесуар">
+        </div>
+        <div class="product_info">
+            <span class="product_category">Полісся</span>
+            <h3 class="product_name">Прикраса "Лісова магія"</h3>
+            <p class="product_price">1 100 ₴</p>
+            <button class="btn_add">До кошика</button>
+        </div>
+    </div>
+</div> 
+</section>
+</section>
+
+</main>
+   <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3 class="footer-logo">Етно-Стиль</h3>
+            <p>Бережемо українське, створюємо сучасне. Ваша вишиванка — ваш оберіг.</p>
+        </div>
+
+        <div class="footer-column">
+            <h4>Меню</h4>
+            <ul>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#catalog">Каталог</a></li>
+                <li><a href="regions.html">Регіони</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h4>Контакти</h4>
+            <p>📞 +38 (0**) ***-**-**</p>
+            <p>✉️ info@ethnostyle.ua</p>
+        </div>
+
+        <div class="footer-column">
+            <h4>Ми в соцмережах</h4>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Pinterest</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2026 Всі права захищені. Створено з любов'ю до України. *фото згенеровані ШІ Gemini</p>
+    </div>
+</footer>
+</body>
+</html>
